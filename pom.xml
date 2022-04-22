@@ -39,8 +39,8 @@
 	</build>
 	
 	<scm>
-		<connection>scm:git:https://Santy288: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@github.com/Santy288/my-pet-clinic.git</connection>
-		<developerConnection>scm:git:https://Santy288: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@github.com/Santy288/my-pet-clinic.git</developerConnection>
+		<connection>scm:git:https://Santy288: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@github.com/Santy288/my-pet-clinic.git</connection>
+		<developerConnection>scm:git:https://Santy288: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@github.com/Santy288/my-pet-clinic.git</developerConnection>
 	  <tag>my-pet-clinic-0.0.4</tag>
   </scm>
   
