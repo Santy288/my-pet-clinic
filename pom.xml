@@ -37,6 +37,7 @@
 		</plugins>
 	</build>
 	<scm>
+		<connection>scm:git:https://Santy288@github.com/Santy288/my-pet-clinic.git</connection>
 		<developerConnection>scm:git:https://Santy288@github.com/Santy288/my-pet-clinic.git</developerConnection>
 	  <tag>my-pet-clinic-0.0.1</tag>
   </scm>
