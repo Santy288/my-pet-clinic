@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>guru.springframework</groupId>
 	<artifactId>my-pet-clinic</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5-SNAPSHOT</version>
 	<name>my-pet-clinic</name>
 	<description>My Pet Clinic Project</description>
 	<packaging>pom</packaging>
@@ -39,8 +39,7 @@
 	</build>
 	
 	<scm>
-		<connection>scm:git:https://Santy288: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@github.com/Santy288/my-pet-clinic.git</connection>
-		<developerConnection>scm:git:https://Santy288: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@github.com/Santy288/my-pet-clinic.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:Santy288/my-pet-clinic.git</developerConnection>
 	  <tag>my-pet-clinic-0.0.4</tag>
   </scm>
   

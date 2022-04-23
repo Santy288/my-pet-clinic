@@ -5,9 +5,9 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class AbstractMapService<T, ID> {
+public abstract class AbstractMapService<T, ID> {
 	
-	Map<ID, T> map = new HashMap<>();
+	protected Map<ID, T> map = new HashMap<>();
 	
 	
 	public Set<T> findAll(){
@@ -28,7 +28,7 @@ public class AbstractMapService<T, ID> {
 		map.remove(id);
 	}
 	
-	public void delete(T object) {
+	void delete(T object) {
 		map.entrySet().removeIf(entry-> entry.getValue().equals(object));
 	}
 }

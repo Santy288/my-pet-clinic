@@ -1,8 +1,6 @@
 package guru.springframework.mypetclinic.services.map;
 
 import java.util.Set;
-
-import guru.springframework.mypetclinic.model.Owner;
 import guru.springframework.mypetclinic.model.Pet;
 import guru.springframework.mypetclinic.services.CrudService;
 
@@ -10,7 +8,6 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements Crud
 
 	@Override
 	public Pet save(Long id, Pet object) {
-		// TODO Auto-generated method stub
 		return super.save(id, object);
 	}
 	
