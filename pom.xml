@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>guru.springframework</groupId>
 	<artifactId>my-pet-clinic</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6-SNAPSHOT</version>
 	<name>my-pet-clinic</name>
 	<description>My Pet Clinic Project</description>
 	<packaging>pom</packaging>
@@ -40,7 +40,7 @@
 	
 	<scm>
 		<developerConnection>scm:git:git@github.com:Santy288/my-pet-clinic.git</developerConnection>
-	  <tag>my-pet-clinic-0.0.5</tag>
+	  <tag>my-pet-clinic-0.0.4</tag>
   </scm>
   
   
