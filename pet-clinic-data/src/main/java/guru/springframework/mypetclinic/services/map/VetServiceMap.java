@@ -2,15 +2,18 @@ package guru.springframework.mypetclinic.services.map;
 
 import java.util.Set;
 
-import guru.springframework.mypetclinic.model.Vet;
-import guru.springframework.mypetclinic.services.CrudService;
+import org.springframework.stereotype.Service;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+import guru.springframework.mypetclinic.model.Vet;
+import guru.springframework.mypetclinic.services.VetService;
+
+@Service
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 	@Override
-	public Vet save(Long id, Vet object) {
+	public Vet save(Vet object) {
 		// TODO Auto-generated method stub
-		return super.save(id, object);
+		return super.save(object.getId(), object);
 	}
 	
 	@Override
