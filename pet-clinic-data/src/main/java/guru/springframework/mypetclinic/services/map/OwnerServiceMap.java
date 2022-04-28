@@ -1,12 +1,8 @@
 package guru.springframework.mypetclinic.services.map;
 
 import java.util.Set;
-
-import javax.management.RuntimeErrorException;
-
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
-
 import guru.springframework.mypetclinic.model.Owner;
 import guru.springframework.mypetclinic.model.Pet;
 import guru.springframework.mypetclinic.services.OwnerService;
@@ -14,6 +10,7 @@ import guru.springframework.mypetclinic.services.PetService;
 import guru.springframework.mypetclinic.services.PetTypeService;
 
 @Service
+@Profile({"default","map"})
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 	
 	private final PetTypeService petTypeService;
